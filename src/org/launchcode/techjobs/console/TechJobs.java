@@ -118,11 +118,17 @@ public class TechJobs {
             System.out.println("We aint got no work here");
         } else {
         for (HashMap<String, String> item : someJobs) {
-            System.out.println("*****");
+            System.out.println("\n*****");
+
             for (Map.Entry<String, String> job : item.entrySet()) {
 
                 System.out.println(job.getKey() + ": "  + job.getValue());
-            }}
+
+            }
+            System.out.println("*****");
+        }
+
+
          }
 
     }
